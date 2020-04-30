@@ -1,0 +1,9 @@
+#app main {
+    background-image: url("/img/bg-md-r.png") !important;
+}
+
+.form-control {
+    border: 3px solid aliceblue;
+    background-color: none !important;
+    color: aliceblue;
+}

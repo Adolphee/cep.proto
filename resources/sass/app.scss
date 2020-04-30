@@ -1,0 +1,63 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+html {
+    height: 100%;
+    body {
+        height: 100%;
+        #app {
+            height: 100%;
+            nav {
+                background-color: black !important;
+                a {
+                    background-color: black;
+                    color: #636b6f;
+                    padding: 0 25px;
+                    font-size: 13px;
+                    font-weight: 600;
+                    letter-spacing: .1rem;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
+
+                .dropdown-menu {
+                    background-color: #636b6f !important;
+                    border: solid black 2px;
+                    a {
+                        background-color: #636b6f !important;
+                        color: aliceblue !important;
+                    }
+                }
+        
+                .navbar-brand {
+                    img {
+                        height: 60px;
+                        width: 120px;
+                    }
+                }
+
+
+            button.navbar-toggler {
+                * {
+                    color: aliceblue !important;
+                    background-color:  aliceblue !important;
+                }
+            }
+            }
+
+            main {
+                height: 100%;
+                background-size: 100%;
+            }
+
+        }
+    }
+}
+

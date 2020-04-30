@@ -1,0 +1,53 @@
+html {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+html body {
+  height: 100%;
+}
+
+html body .container {
+  height: 100%;
+}
+
+html body .container .homequote {
+  height: 100%;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+html body .container .cepquote {
+  height: 50% !important;
+  padding-top: 20%;
+  margin-top: 0;
+  align-content: center;
+  color: aliceblue;
+}
+
+html body .container .cepquote div {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+html body .container .cepquote span {
+  font-size: 4rem;
+  color: aliceblue;
+}
+
+html body .container #filler {
+  height: 400px;
+  background: none;
+}
+
+html body .container .card {
+  background: none;
+  border: 5px solid aliceblue !important;
+  border-radius: 30px;
+  margin: auto;
+}
+
+html body #app main {
+  background-image: url(/images/bg-md-l.png?e48225d3408acfe8f9846eed266384d2) !important;
+}
+
